@@ -3,10 +3,12 @@ class Device(ABC):
     power: bool
     def __init__(self, initial_state: bool=False):
         self.power = initial_state
+    @abstractclassmethod
     def turn_on(self):
-        raise NotImplementedError
+        pass
+    @abstractclassmethod
     def turn_off(self):
-        raise NotImplementedError
+        pass
 class Switch:
     def __init__(self, device: Device, pressed: bool=False):
         self.device = device
@@ -24,7 +26,6 @@ class LightBulb(Device):
         self.power = True
     def turn_off(self):
         self.power = False
-d=Device()
 l=LightBulb()
 s=Switch(l)
 s.toggle()

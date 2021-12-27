@@ -12,3 +12,7 @@ The Interface Segregation Principle states that clients should not be forced to 
 DIP states High-Level Modules should not depend on Low-Level Modules Both Should dependon abstractions. Abstractions should not depend on details. Details should depend on abstractions, in the Example file we have a LightBulb class(Low-Level) class which depends on Device class(High-level) class there by Following DIP
 
 ### You can run the File By Using the Following Steps:
+1.Clone the File into your local machine
+2.Open Command Prompt and navigate into the Downloaded file Folder
+3.Type *python SOLID.py*
+4.By Default you will see output as **Truned On** if you want to Turn off add **.toggle()** at the end of code.

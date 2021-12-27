@@ -9,4 +9,6 @@ LSP Defines that if a subclass redefines a fucntion present in base class then t
 ### 4.Interface Segregation Principle :
 The Interface Segregation Principle states that clients should not be forced to implement interfaces they don't use. Instead of one fat interface many small interfaces are preferred based on groups of methods, each one serving one submodule.The Above Example Contains only the necessary interfaces that client require to turn on the bulb
 ### 5.Dependency Inversion Principle :
-DIP states High-Level Modules should not depend on Low-Level Modules Both Should dependon abstractions. Abstractions should not depend on details. Details should depend on abstractions
+DIP states High-Level Modules should not depend on Low-Level Modules Both Should dependon abstractions. Abstractions should not depend on details. Details should depend on abstractions, in the Example file we have a LightBulb class(Low-Level) class which depends on Device class(High-level) class there by Following DIP
+
+### You can run the File By Using the Following Steps:

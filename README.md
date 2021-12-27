@@ -15,4 +15,4 @@ DIP states High-Level Modules should not depend on Low-Level Modules Both Should
 1.Clone the File into your local machine
 2.Open Command Prompt and navigate into the Downloaded file Folder
 3.Type *python SOLID.py*
-4.By Default you will see output as **Truned On** if you want to Turn off add **.toggle()** at the end of code.
+4.By Default you will see output as **Truned On** if you want to Turn off add **s.toggle()** at the end of code.

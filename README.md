@@ -14,5 +14,5 @@ DIP states High-Level Modules should not depend on Low-Level Modules Both Should
 ### You can run the File By Using the Following Steps:
 1.Clone the File into your local machine<br>
 2.Open Command Prompt and navigate into the Downloaded file Folder<br>
-3.Type *python SOLID.py*<br>
+3.Type '''python SOLID.py'''<br>
 4.By Default you will see output as **Truned On** if you want to Turn off add **s.toggle()** at the end of code.<br>
